@@ -17,13 +17,15 @@ pub mod crowdsale {
     }
 
     // Where a user will buy a token
-
     pub fn buy_tokens(ctx: Context<BuyTokens>, amount: u32) -> Result<()> {
         instructions::buy_tokens(ctx, amount)
     }
 
 
     // Where the owner can withdraw Sol
+    pub fn withdraw(ctx: Context<Withdraw>) -> Result<()> {
+        instructions::withdraw(ctx)
+    }
 }
 
 
