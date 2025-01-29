@@ -14,7 +14,7 @@ crowdsale = "HciPz9qoNEBBWga6KWomnDovANbQWnTAT5iFSNW7Ji3K"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

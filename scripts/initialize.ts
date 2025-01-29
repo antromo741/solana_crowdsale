@@ -34,8 +34,8 @@ async function main() {
   const ID = crowdsaleKeypair.publicKey
   const COST = 1
 
-  const CROWDSALE_PROGRAM_ID = new PublicKey("HciPz9qoNEBBWga6KWomnDovANbQWnTAT5iFSNW7Ji3K")
-  const TOKEN_MINT_ACCOUNT = new PublicKey("")
+  const CROWDSALE_PROGRAM_ID = new PublicKey("4tAj8UbxCCVChy785xKz4ZK17vKch3CAbwM8co7u8VUb")
+  const TOKEN_MINT_ACCOUNT = new PublicKey("FrgfkLuCVDupC4AwSRHc3CjobcEKWqUN6CEFu2nkzRm9")
 
   const program = anchor.workspace.Crowdsale as anchor.Program<Crowdsale>
 
